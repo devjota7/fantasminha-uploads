@@ -1,0 +1,9 @@
+{
+  "version": "11.5.0",
+  "name": "Fantasminha",
+  "release": "stable",
+  "zip": "Fantasminha-v11.5.0-GITHUB.zip",
+  "sha256": "f6c97c19c1f893af63200f236b39f274c65572a3a56b3f689b6ea316809fbfdc",
+  "notes": "Fantasminha v11.5.0 — Final Consolidado",
+  "minNode": "20.0.0"
+}
