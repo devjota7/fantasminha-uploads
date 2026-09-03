@@ -1,9 +1,9 @@
 {
-  "version": "11.7.0",
+  "version": "11.7.01",
   "name": "Fantasminha",
-  "release": "11.7.0-social-profiles",
-  "zip": "Fantasminha-v11.7.0-SOCIAL-PROFILES.zip",
-  "sha256": "571aa7d96bc85573248ee23c7b66860f2c68b0df28e11eba770722199425b2a6",
-  "notes": "AFK clássico com saída automática ao enviar qualquer mensagem; menu unificado em 6 categorias com todos os comandos públicos paginados; identidade/menções seguras; triagem reforçada; jogos com sessões/timers; autonomia e performance sem backup automático de banco. + Mega Assistente V2 + System Excellence, Orchestrator, auditoria administrativa e diagnóstico central. + sistema de salas Among Us, menção global unificada ×todos/×t, deduplicação de mensagens e sugestões inteligentes de comandos. + consultas públicas de perfis Instagram/TikTok com cache TTL, normalização, tratamento de mídia, deduplicação via pipeline global e registro centralizado.",
+  "release": "11.7.01-complete-expansion",
+  "zip": "Fantasminha-v11.7.01-COMPLETE-EXPANSION.zip",
+  "sha256": "9fa0b50d45ea696b218da61ae88d5547f3a2e87ddce18acef627a363bce8fb2e",
+  "notes": "Complete Expansion baseada no prompt de expansão do Fantasminha 11.7.01 e na análise das bases Takeshi Bot, Hiyuki Base, SubaruBase, Phoenix-MD-Bot, TheMystic-Bot-MD, King-RANUX-PRO e Silva MD Bot. Expansão do Game Engine com partidas persistentes, gameId, jogadores, estados, validação, turnos, encerramento, abandono, histórico e estatísticas; novos jogos incluindo Jogo da Velha, Pedra/Papel/Tesoura, Forca, Enigma, Anagrama, Matemática, Quiz, Memória, Campo Minado e Quem Sou Eu; sistema de Pets com adoção, cuidados, evolução, treinamento, aventura e ranking; rankings, XP, conquistas e temporadas; sistema de torneios com inscrições, partidas, rodadas e campeão; Interaction Engine para dados, moeda, chance, escolha, sorteio, Você Prefere e compatibilidade recreativa; catálogo e aliases compatíveis sem duplicação ou conflitos; isolamento de estado por grupo; auditoria e validação; animações por edição de mensagens; reações automáticas desativadas, mantendo somente ×react para reação manual explícita; compatibilidade ampliada com comandos das bases de referência; nenhum sistema adulto/NSFW ou recurso perigoso incorporado; versão preservada em 11.7.01.",
   "minNode": ">=20.9.0"
 }
