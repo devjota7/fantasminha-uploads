@@ -1,9 +1,9 @@
 {
-  "version": "11.6.0",
+  "version": "11.7.0",
   "name": "Fantasminha",
-  "release": "11.6.0-final",
-  "zip": "Fantasminha-v11.6.0-FINAL.zip",
-  "sha256": "24be255845c677dbad25497eeebe57ca3ff8568dc99ce01b06883142d1acec7b",
-  "notes": "Reorganização, correções de identidade e menções, triagem, jogos, sessões, cronômetros, perfil, Best Friend, todos/t, personalidade, AFK, ajuda, busca, RPG, deduplicação e estabilidade geral.",
+  "release": "11.7.0-social-profiles",
+  "zip": "Fantasminha-v11.7.0-SOCIAL-PROFILES.zip",
+  "sha256": "571aa7d96bc85573248ee23c7b66860f2c68b0df28e11eba770722199425b2a6",
+  "notes": "AFK clássico com saída automática ao enviar qualquer mensagem; menu unificado em 6 categorias com todos os comandos públicos paginados; identidade/menções seguras; triagem reforçada; jogos com sessões/timers; autonomia e performance sem backup automático de banco. + Mega Assistente V2 + System Excellence, Orchestrator, auditoria administrativa e diagnóstico central. + sistema de salas Among Us, menção global unificada ×todos/×t, deduplicação de mensagens e sugestões inteligentes de comandos. + consultas públicas de perfis Instagram/TikTok com cache TTL, normalização, tratamento de mídia, deduplicação via pipeline global e registro centralizado.",
   "minNode": ">=20.9.0"
 }
