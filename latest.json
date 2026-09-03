@@ -1,7 +1,7 @@
 {
-  "version": "11.5.0",
+  "version": "11.5.1",
   "name": "Fantasminha",
-  "release": "11.5.0-upgrade",
-  "zip": "Fantasminha-v11.5.0-UPGRADE.zip",
-  "sha256": "73c0b03026f47b29fb5820849ecf40af0237dd02a8a0fc41ae6e9f62d1471431"
+  "release": "11.5.1-fix-update",
+  "zip": "Fantasminha-v11.5.1-FIX-UPDATE.zip",
+  "sha256": "ff658222ad71d2487f49523878baa6c3be2181db12af74994dfddd1d57a66980"
 }
