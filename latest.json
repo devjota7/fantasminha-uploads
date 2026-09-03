@@ -1,7 +1,9 @@
 {
-  "version": "11.5.1",
+  "version": "11.5.2",
   "name": "Fantasminha",
-  "release": "11.5.1-fix-update",
-  "zip": "Fantasminha-v11.5.1-FIX-UPDATE.zip",
-  "sha256": "ff658222ad71d2487f49523878baa6c3be2181db12af74994dfddd1d57a66980"
+  "release": "11.5.2-stability-games-help",
+  "zip": "Fantasminha-v11.5.2-FINAL.zip",
+  "sha256": "1983b703e0c6cc37758bbe3df3aaba66510fbc5d200cff3e48e9883b0073b2ce",
+  "notes": "Runtime dirs automáticos; triagemcobrar somente no grupo com @usuário + link; anti-duplicação; ajuda/busca inteligente; guia do dono; jogos com respostas numéricas e saída; stop aprimorado; fotomenu resiliente.",
+  "minNode": ">=20.9.0"
 }
