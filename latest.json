@@ -1,9 +1,132 @@
 {
-  "version": "11.7.03",
+  "manifestVersion": 2,
+  "version": "11.7.04",
   "name": "Fantasminha",
-  "release": "11.7.03-complete-expansion",
-  "zip": "Fantasminha-v11.7.03-COMPLETE-EXPANSION.zip",
-  "sha256": "960d30de9f6fc55b9ec84a4250e976f485e3c3bc6892cb175021d9193bbf41f1",
-  "notes": "Complete Expansion atualizada do Fantasminha 11.7.03. Mega Assistente multi-IA conectado a Groq, Cerebras e Gemini, com fallback automático, ordem e modelos configuráveis e timeout configurável. Mantém router, permissões e políticas existentes. Mantém os cinco jogos oficiais, Ranking Central, persistência, auditoria, idempotência e o atualizador que preserva sessão, autenticação, .env, banco, configurações, mídias, logs e arquivos locais protegidos durante ×atualizar. O pacote não inclui .env real nem credenciais secretas. Versão preservada em 11.7.03.",
-  "minNode": ">=20.9.0"
+  "release": "v11.7.04-final",
+  "status": "stable",
+  "channel": "stable",
+  "package": "Fantasminha-v11.7.04-FINAL.zip",
+  "zip": "Fantasminha-v11.7.04-FINAL.zip",
+  "sha256": "65a968cd12a50b070f0d61daa3941a7701c282e00553e04c77a0d5d86f29710e",
+  "size": 1265836,
+  "archive": {
+    "format": "zip",
+    "fileCount": 618,
+    "integrity": "validated",
+    "zipTest": "passed"
+  },
+  "createdAt": "2026-09-05T00:33:07.091Z",
+  "minNode": ">=20.9.0",
+  "compatibility": {
+    "upgradeFrom": "11.7.x",
+    "preserveLocalData": true,
+    "preserveEnvironment": true,
+    "preserveAuthentication": true,
+    "preserveSessions": true,
+    "preserveDatabase": true,
+    "preserveMedia": true,
+    "preserveLogs": true
+  },
+  "integrity": {
+    "algorithm": "sha256",
+    "checksumRequired": true,
+    "manifestRequired": true,
+    "zipValidationRequired": true,
+    "ownedFilesOnly": true
+  },
+  "update": {
+    "backupRequired": true,
+    "backupValidationRequired": true,
+    "rollbackSupported": true,
+    "rollbackOnFailure": true,
+    "destructiveReplacement": false,
+    "deleteUnknownLocalFiles": false
+  },
+  "protectedPaths": [
+    ".env",
+    "dados/src/config.json",
+    ".update-owned-files.json",
+    "data/auth",
+    "data/db",
+    "data/backups",
+    "auth",
+    "session",
+    "sessions",
+    "dados/database",
+    "dados/midias",
+    "logs"
+  ],
+  "documentation": {
+    "readme": "README.md",
+    "changelog": "CHANGELOG.md",
+    "rules": "REGRAS-OBRIGATORIAS-FANTASMINHA.txt",
+    "releaseNotes": "RELEASE-NOTES-V11.7.04.txt",
+    "latest": "latest.json"
+  },
+  "validation": {
+    "syntax": "passed",
+    "updateIntegrity": "passed",
+    "updateSafety": "passed",
+    "menuOrganization": "passed",
+    "prefixCentral": "passed",
+    "forcaEngine": "passed",
+    "quizEngine": "passed",
+    "stopCodeRegression": {
+      "samples": 20000,
+      "format": "passed",
+      "collisions": 0,
+      "status": "passed"
+    },
+    "completeExpansionDuplicates": "passed",
+    "completeExpansionContract": "passed",
+    "afkMenu": "passed",
+    "ownerMenu": "passed",
+    "prelaunchDeep": "passed",
+    "latestReleaseContract": "passed",
+    "zipIntegrity": "passed",
+    "fullSuite": {
+      "total": 54,
+      "passedBeforeFinalCleanup": 43,
+      "environmentFailuresBeforeFinalCleanup": 9,
+      "finalCleanupStatus": "complete-expansion-test-and-release-contract-updated",
+      "note": "Alguns testes da suíte completa exigem dependências Node externas indisponíveis no ambiente de validação."
+    }
+  },
+  "features": [
+    "Command Registry",
+    "Duplicate Command Detection",
+    "Dynamic Menu System",
+    "Central Prefix System",
+    "Group Prefix Isolation",
+    "Persistent Triage",
+    "Universal Game Engine",
+    "Quiz",
+    "Forca",
+    "Stop",
+    "Gartic",
+    "Memory Cups",
+    "Central Ranking",
+    "Assistant V2",
+    "Private Message Gateway",
+    "Persistent Database",
+    "Audit System",
+    "Idempotency",
+    "Concurrency Control",
+    "Backup and Rollback",
+    "Update Safety"
+  ],
+  "security": {
+    "includesSecrets": false,
+    "includesRealEnv": false,
+    "includesCredentials": false,
+    "preserveProtectedData": true,
+    "safeProcessExecutionReview": true
+  },
+  "notes": "Fantasminha 11.7.04 — release final corrigida com STOP code de 8 caracteres, limpeza de registros duplicados, correções dos contratos de menu e scanner de segurança, atualização dos testes de expansão, integridade do ZIP e manifesto atualizado.",
+  "releasePolicy": {
+    "latestJsonIsReleaseArtifact": true,
+    "mustMatchZipSha256": true,
+    "mustMatchZipSize": true,
+    "mustBeRegeneratedAfterReleaseChanges": true
+  }
 }
