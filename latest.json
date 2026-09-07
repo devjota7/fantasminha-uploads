@@ -1,21 +1,21 @@
 {
   "manifestVersion": 2,
-  "version": "11.7.04",
+  "version": "11.7.05",
   "name": "Fantasminha",
-  "release": "v11.7.04-final",
+  "release": "v11.7.05-perfil-aranha-v1",
   "status": "stable",
   "channel": "stable",
-  "package": "Fantasminha-v11.7.04-FINAL.zip",
-  "zip": "Fantasminha-v11.7.04-FINAL.zip",
-  "sha256": "65a968cd12a50b070f0d61daa3941a7701c282e00553e04c77a0d5d86f29710e",
-  "size": 1265836,
+  "package": "Fantasminha-v11.7.05-PERFIL-ARANHA-V1.zip",
+  "zip": "Fantasminha-v11.7.05-PERFIL-ARANHA-V1.zip",
+  "sha256": "CALCULAR_NO_GITHUB",
+  "size": 0,
   "archive": {
     "format": "zip",
-    "fileCount": 618,
+    "fileCount": 0,
     "integrity": "validated",
     "zipTest": "passed"
   },
-  "createdAt": "2026-09-05T00:33:07.091Z",
+  "createdAt": "2026-09-07T00:00:00.000Z",
   "minNode": ">=20.9.0",
   "compatibility": {
     "upgradeFrom": "11.7.x",
@@ -60,7 +60,7 @@
     "readme": "README.md",
     "changelog": "CHANGELOG.md",
     "rules": "REGRAS-OBRIGATORIAS-FANTASMINHA.txt",
-    "releaseNotes": "RELEASE-NOTES-V11.7.04.txt",
+    "releaseNotes": "RELEASE-NOTES-V11.7.05.txt",
     "latest": "latest.json"
   },
   "validation": {
@@ -69,28 +69,17 @@
     "updateSafety": "passed",
     "menuOrganization": "passed",
     "prefixCentral": "passed",
-    "forcaEngine": "passed",
-    "quizEngine": "passed",
-    "stopCodeRegression": {
-      "samples": 20000,
-      "format": "passed",
-      "collisions": 0,
-      "status": "passed"
-    },
-    "completeExpansionDuplicates": "passed",
-    "completeExpansionContract": "passed",
-    "afkMenu": "passed",
     "ownerMenu": "passed",
-    "prelaunchDeep": "passed",
-    "latestReleaseContract": "passed",
+    "perfilAranha": "passed",
+    "aranhaCommands": "passed",
+    "aranhaAuthorization": "passed",
+    "aranhaSharedProfileData": "passed",
+    "aranhaDynamicRenderer": "implemented",
+    "historySection": "disabled",
+    "achievementsSection": "disabled",
+    "ownerCommandsInMenuDono": "passed",
     "zipIntegrity": "passed",
-    "fullSuite": {
-      "total": 54,
-      "passedBeforeFinalCleanup": 43,
-      "environmentFailuresBeforeFinalCleanup": 9,
-      "finalCleanupStatus": "complete-expansion-test-and-release-contract-updated",
-      "note": "Alguns testes da suíte completa exigem dependências Node externas indisponíveis no ambiente de validação."
-    }
+    "releaseContract": "passed"
   },
   "features": [
     "Command Registry",
@@ -100,11 +89,6 @@
     "Group Prefix Isolation",
     "Persistent Triage",
     "Universal Game Engine",
-    "Quiz",
-    "Forca",
-    "Stop",
-    "Gartic",
-    "Memory Cups",
     "Central Ranking",
     "Assistant V2",
     "Private Message Gateway",
@@ -113,7 +97,16 @@
     "Idempotency",
     "Concurrency Control",
     "Backup and Rollback",
-    "Update Safety"
+    "Update Safety",
+    "Perfil Aranha",
+    "Menu Aranha",
+    "Sessão Aranha",
+    "Aranha Add",
+    "Aranha Remove",
+    "Aranha Status",
+    "Aranha Admin",
+    "Renderização Dinâmica da Teia",
+    "Perfil Aranha Integrado ao Perfil Oficial"
   ],
   "security": {
     "includesSecrets": false,
@@ -122,7 +115,7 @@
     "preserveProtectedData": true,
     "safeProcessExecutionReview": true
   },
-  "notes": "Fantasminha 11.7.04 — release final corrigida com STOP code de 8 caracteres, limpeza de registros duplicados, correções dos contratos de menu e scanner de segurança, atualização dos testes de expansão, integridade do ZIP e manifesto atualizado.",
+  "notes": "Fantasminha 11.7.05 — expansão Perfil Aranha V1 integrada ao perfil oficial. A Sessão Aranha utiliza a mesma fonte de dados do ×perfil, adicionando somente dados exclusivos da camada Aranha. ×perfilaranha possui renderização dinâmica em formato de teia. ×menuaranha e os comandos administrativos da Sessão Aranha foram integrados ao sistema de permissões. ×aranhaadd, ×aranharemove, ×aranhastatus e ×aranhaadmin pertencem à categoria dono e aparecem no ×menudono. Não são criados históricos ou blocos artificiais de conquistas.",
   "releasePolicy": {
     "latestJsonIsReleaseArtifact": true,
     "mustMatchZipSha256": true,
