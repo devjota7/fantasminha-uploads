@@ -7,11 +7,11 @@
   "channel": "stable",
   "package": "Fantasminha-v11.7.05-PERFIL-ARANHA-V1.zip",
   "zip": "Fantasminha-v11.7.05-PERFIL-ARANHA-V1.zip",
-  "sha256": "CALCULAR_NO_GITHUB",
-  "size": 0,
+  "sha256": "047d84008492e4872bf2d5af666a49b32126ebdb56e242cd0db5f685e656ab73",
+  "size": 1322196,
   "archive": {
     "format": "zip",
-    "fileCount": 0,
+    "fileCount": 547,
     "integrity": "validated",
     "zipTest": "passed"
   },
@@ -122,4 +122,4 @@
     "mustMatchZipSize": true,
     "mustBeRegeneratedAfterReleaseChanges": true
   }
-}
+    }
